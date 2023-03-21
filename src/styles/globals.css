@@ -1,10 +1,9 @@
 body {
-  background-color: aquamarine !important;
-  height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/monstera-leaf-border-frame-leaf-banner-background_53876-97380.jpg?w=826&t=st=1679368296~exp=1679368896~hmac=463dd0c10e6c96afbbc5432aa9f54b967bd75ee449803b84b16ad887ca0897b3") !important;
+  height: 700px;
+  width: 500px;
 }
-.Mytodolist {
-  background-color: aquamarine;
-}
+
 
 .button {
   background-color: aquamarine;

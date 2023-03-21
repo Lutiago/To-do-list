@@ -5,7 +5,7 @@ export function Mytodolist() {
   const [list, setList] = useState([]);
 
   return (
-    <div class="row gx-5">
+    <div class="position-absolute top-50 start-50 translate-middle-x">
       <input
         placeholder="What needs to be done?"
         value={task}
@@ -38,7 +38,7 @@ export function Mytodolist() {
           );
         })}
       </ul>
-      <div>{list.filter((item) => !item.done).length}items left</div>
+      <div>{list.filter((item) => !item.done).length} items left</div>
     </div>
   );
 }
